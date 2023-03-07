@@ -46,16 +46,7 @@ const ImagetoPDF = () => {
    <div className="imagestopdf">
       <h1>Convert images to PDFs</h1>
 
-      {/* Overview of uploaded images */}
-      {/* <div className="images-container">
-        {uploadedImages.length > 0 ? (
-          uploadedImages.map((image) => (
-            <img key={image.src} src={image.src} className="uploaded-image" />
-          ))
-        ) : (
-          <p>Upload some images...</p>
-        )}
-      </div> */}
+     
 
       {/* Buttons for uploading images and generating a PDF */}
       <div className="buttons-container">

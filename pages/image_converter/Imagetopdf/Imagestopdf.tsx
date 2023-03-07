@@ -11,7 +11,7 @@ class CustomImage extends Image {
     super();
   }
 
-  // `imageType` is a required input for generating a PDF for an image.
+
   get imageType(): string {
     return this.mimeType.split("/")[1];
   }
