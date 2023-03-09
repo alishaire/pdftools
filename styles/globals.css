@@ -898,6 +898,7 @@ footer a:hover{
   }
   .card-main .border-gradient .card-body h4{
     margin-top: 10px;
+    text-transform: capitalize;
   }
 
   .circle-div{
@@ -1953,13 +1954,16 @@ padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: clamp(80%,90%,1065px);
-  height: 300px;
-  background: #a2d4ff;
+  width: clamp(70%,70%,1065px);
+padding: 50px;
+  background: #086AD8;
   margin: 10px;
   font-size: 25px;
     font-family: 'Montserrat';
     font-weight: 500;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0);
 }
 .cnvrtrpage_catogeries{
   display: flex;

@@ -38,80 +38,7 @@ var dropDownRef3 = useRef()
   return (
     
    <>
-    {/* <div className="NavBar">
-      <nav>
-        <div className="logo">
-          <Link href="/">
-            <Image className="width" width="200" height="70" src="/logos.png" alt="" />
-          </Link>
-        </div>
-        <div className="barsDiv" onClick={navLinksToggle}>
-          <div className="bars">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div className="navLinks" style={{ display: mobNavLinks }}>
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-             
-            </li>
-            <div className="dropdown"
-             ref={refone}
-             >
-              <button
-                className="dropdown-toggle"
-               
-                onClick={dropdowntoogel}
-              >
-               Services
-              </button>
-              <div
-                className="dropdown-menu"
-              
-                style={{ display: Dropdown }}
-              >
-                <Link className="dropdown-item" href="/Converter/Binary">
-                  Binary To Decimal
-                </Link>
-                <Link className="dropdown-item" href="/Converter/TextBinary">
-                Text to Binary
-                </Link>
-                <Link className="dropdown-item" href="/Converter/Hexatobinary">
-                Hexa to Binary
-                </Link>
-                
-                
-              </div>
-            </div>
-            <li>
-              <Link href="/About">About Us</Link>
-            </li>
-            <li>
-              <Link href="/Contactus">Contact Us</Link>
-            </li>
-            <li>
-              <Link href="/Privacy">Privacy And Policy</Link>
-            </li>
-            
-            <li>
-            <Link href="/Disclaimer">Disclaimer</Link>
-            </li>
-            <li>
-              <Link href="/Blogs">Blogs</Link>
-              
-            </li>
-            
-          </ul>
-        </div>
-      </nav>
-    </div> */}
-
-
+   
 <div className="NavBar">
         <nav>
         <div className="logo">
@@ -130,9 +57,14 @@ var dropDownRef3 = useRef()
                 <i  className="fa-solid fa-angle-down"></i>
                 </Link>
                 <ul className='dropDownList'>
-                  <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/Converter/Binary' className='drop-downitem' > Binary To Decimal</Link></li>
-                  <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/Converter/TextBinary' className='drop-downitem' >Text to Binary</Link></li>
-                  <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/Converter/Hexatobinary' className='drop-downitem' >  Hexa to Binary</Link></li>
+                  <li><Link style={{ color: '#086AD8', fontWeight:'500' }} href='/Converter/NumberConverterpage' className='drop-downitem' > Number Converter</Link></li>
+                  <li><Link style={{ color: '#086AD8', fontWeight:'500' }} href='/finance/Financecalculators' className='drop-downitem' >Finance converter</Link></li>
+                  <li><Link style={{ color: '#086AD8', fontWeight:'500' }} href='/texttools/Texttools' className='drop-downitem' >  Text Tools</Link></li>
+                  <li><Link style={{ color: '#086AD8', fontWeight:'500' }} href='/Unitconversion/Unitconvertion' className='drop-downitem' >  Unit converter</Link></li>
+
+                  <li><Link style={{ color: '#086AD8', fontWeight:'500' }} href='/image_converter/Image_coverters' className='drop-downitem' >  Image Conveter</Link></li>
+                  <li><Link style={{ color: '#086AD8', fontWeight:'500' }} href='/QRcode/QRcodegenrator' className='drop-downitem' >  Qr Code Genrator</Link></li>
+
                  
 
                 </ul>
@@ -149,6 +81,10 @@ var dropDownRef3 = useRef()
                 </ul>
               </li>
               <li>
+              <Link href="/Blogs">Blogs</Link>
+              
+              </li>
+              <li>
               <Link href="/About">About Us</Link>
 
               </li>
@@ -156,18 +92,9 @@ var dropDownRef3 = useRef()
               <Link href="/Contactus">Contact Us</Link>
 
               </li>
-              <li>
-              <Link href="/Privacy">Privacy And Policy</Link>
-
-              </li>
-              <li>
-              <Link href="/Disclaimer">Disclaimer</Link>
-
-              </li>
-              <li>
-              <Link href="/Blogs">Blogs</Link>
-              
-              </li>
+             
+             
+             
 
 
             </ul>

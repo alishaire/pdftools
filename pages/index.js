@@ -14,7 +14,7 @@ export default function Home() {
     },
     {
       Heading_Number: "02",
-      Title: "Finance",
+      Title: "Finance Converters",
       Connect: "/finance/Financecalculators",
       // p:"Text To Binary Converter convert the text into binary numbers.| binary translator and binary calculator.",
 
@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       Heading_Number: "02",
-      Title: "Text tools",
+      Title: "Text tools Converters",
       Connect: "/texttools/Texttools",
       // p:"Text To Binary Converter convert the text into binary numbers.| binary translator and binary calculator.",
 
