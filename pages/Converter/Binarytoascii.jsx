@@ -108,7 +108,7 @@ const Binarytoascii = () => {
 
 
       <div class="container calulator">
-        <div class="rounding-calculator" style={{height:"70vh"}}>
+        <div class="rounding-calculator" >
           <h1> Binary to ascii text converter</h1>
           <div>
             <label>Type Binary Number</label>
