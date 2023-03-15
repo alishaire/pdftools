@@ -122,20 +122,7 @@ const Hexatobinary = () => {
           </div>
         </div>
         <div className="content_sec">
-          <div className="content">
-            <p><strong><span style={{ textDecoration: "underline" }}>Converting from hex to binary.</span></strong></p>
-            <p>Hexadecimal to binary is a process of conversion which involves the two aforementioned number systems. (something that was written before). Hexadecimal has an original format, base number 16, that was converted to binary format, base 2.<strong> Hex to binary</strong> convert is a tool which provides you with an easy way of converting.<strong> Lovepdf.co</strong> web has a tool to convert <strong>binary to hex. </strong>You can easily convert hex to binary by following these easy steps.</p>
-            <p>Write the hex number into the given place.</p>
-            <p>And then click the convert button. Your number automatically converted into the binary number.</p>
-            <p><strong><span style={{ textDecoration: "underline" }}>In hexadecimal the binary number 10100101 explanation</span></strong>.</p>
-            <p>When you convert <strong>binary to hex</strong>. You have to need a binary table. Basically it is a 16 bit binary. 10100101 is A5 in hexadecimal. You can convert it in binary to the hex tool provided by <strong>lovepdf.co.</strong></p>
-            <p><strong><span style={{ textDecoration: "underline" }}>Solution of 10100101 step by step.</span></strong></p>
-            <p>Write the binary number.</p>
-            <p>&nbsp;Starting from the right while grouping the digits in sets of four. If there are not enough digits to make a set of four just add zeros to the left of the last digit.</p>
-            <p>Use a table provided by lovepdf.co to convert each set of three into a hex digit.</p>
-            <p>1010=A, 0101=5</p>
-            <p>So, A5 is equivalent to the decimal number.</p>
-          </div>
+         
           <div className="related_topics">
             <div className="tableofcontent">
               <div className="heading">Table of Content</div>

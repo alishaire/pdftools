@@ -103,11 +103,7 @@ const Decimaltobinary = () => {
                     </div>
                 </div>
                 <div className="content_sec">
-                    <div className="content">
-                      
-                      Get content for this page
-                       
-                    </div>
+                    
                     <div className="related_topics">
                         <div className="tableofcontent">
                             <div className="heading">Table of Content</div>

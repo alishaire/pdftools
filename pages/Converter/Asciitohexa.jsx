@@ -101,7 +101,7 @@ const Asciitohexa = () => {
 
 
             <div class="container calulator">
-                <div class="rounding-calculator">
+                <div class="rounding-calculator" style={{height:"70vh"}}>
                     <h1>Ascii text to hexadecimal converter</h1>
                     <div>
                         <label>Type Ascii (Text)</label>
